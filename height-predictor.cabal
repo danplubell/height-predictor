@@ -1,0 +1,27 @@
+name:                height-predictor
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            http://github.com/danplubell/height-predictor#readme
+license:             BSD3
+author:              Dan Plubell
+maintainer:          danplubell@gmail.com
+copyright:           2015 Dan Plubell
+category:            Other
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable height-predictor
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell98
+  build-depends:       base >= 4.2 && < 4.8
+                     , reactive-banana 
+                     , reactive-banana-wx 
+                     , wx 
+                     , wxcore
+                     , random
+                     , cabal-macosx
+                     , pqueue
+                     , wxdirect
+                     , split
